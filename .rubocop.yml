@@ -1,0 +1,72 @@
+require: rubocop-rails
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/ConditionalAssignment:
+  Enabled: false
+Style/StringLiterals:
+  Enabled: false
+Layout/LineLength:
+  Max: 180
+Metrics/ClassLength:
+  Enabled: false
+Metrics/MethodLength:
+  Max: 30
+Lint/UnusedMethodArgument:
+  Enabled: false
+Layout/EmptyLines:
+  Enabled: false
+Style/RedundantReturn:
+  Enabled: false
+Style/SelfAssignment:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/RegexpLiteral:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
+Style/WordArray:
+  Enabled: false
+Style/SymbolProc:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Style/MutableConstant:
+  Enabled: false
+Style/SignalException:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Lint/MissingSuper:
+  Enabled: false
+Style/MissingRespondToMissing:
+  Enabled: false
+Security/Open:
+  Enabled: false
+Bundler/OrderedGems:
+  Enabled: false
+Style/HashEachMethods:
+  Enabled: false
+Style/HashTransformKeys:
+  Enabled: false
+Style/HashTransformValues:
+  Enabled: false
+Lint/RaiseException:
+  Enabled: false
+Lint/StructNewOverride:
+  Enabled: false
+Style/ExplicitBlockArgument:
+  Enabled: false
+Style/OptionalBooleanParameter:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.1
+  Exclude:
+    - '**/Rakefile'
+    - '**/spec/**/*'
+    - '**/db/schema.rb'
